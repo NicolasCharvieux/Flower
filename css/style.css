@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-attachment: fixed;
+    background-image: url("../image/fdb.jpg");
+    background-position: fixed;
+    background-size: cover;
+    width: 98.9vw;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: "FlowerF";
+    src: url('../font/WildFlowerBold.otf');
+}
+
+#logo {
+    font-family: "FlowerF";
+    font-size: 200%;
+    color: green;
+    padding: 0px 0px 0px 10px;
+}
+
+#barre {
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu {
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    right: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: green;
+    padding: 1em;
+}
+
+.active {
+    border-bottom: solid 2px black;
+}
+
+#titre {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgba(0, 133, 0, 0.3);
+    border: white dotted 5px;
+    color: white;
+    font-size: 500%;
+    padding: 15px 150px;
+}
+
+.title {
+    font-family: 'Courgette', cursive;
+    color: green;
+    text-align: center;
+    padding: 1em;
+    font-size: 350%;
+}
+
+.container i {
+    display: flex;
+    justify-content: center;
+    color: rgb(137, 167, 137);
+    font-size: 190%;
+    padding: 1em;
+}
+
+#slog {
+    background-attachment: fixed;
+    background-image: url("../image/bg3.jpg");
+    background-size: cover;
+    width: 98.9vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#slogan {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 300%;
+    background-color: rgba(0, 133, 0, 0.3);
+    padding: 15px 150px;
+    text-align: center;
+    border: white dotted 5px;
+}
+
+.container2 {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Courgette', cursive;
+}
+
+.italique {
+    font-style: italic;
+}
+
+.col-sm img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: rgb(102, 138, 102) solid 10px;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inherit;
+}
+
+.fontic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(102, 138, 102);
+    position: absolute;
+    opacity: 0;
+    transition: background-color 2s;
+    top: 15px;
+    font-size: 120%;
+}
+
+.row {
+    margin: 0px;
+}
+
+.fontic:hover {
+    opacity: 1;
+    background-color: rgba(0, 180, 0, 0.6);
+}
+
+.icone {
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icone i {
+    text-align: center;
+}
+
+.image:hover {
+    background-color: white;
+}
+
+.image:hover .icone {
+    display: inherit;
+    opacity: 0.7;
+}
+
+#fond {
+    width: 98.9vw;
+    height: 70vh;
+    background-image: url("../image/bg2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.glide__slide {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.glide__slide img {
+    width: 400px;
+    height: 400px;
+    padding: 3em;
+}
+
+.glide__slides img {
+    border-radius: 30%;
+}
+
+.col img {
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    width: 98.9vw;
+    height: 30vh;
+    background-color: rgb(102, 138, 102);
+    margin-top: 25px;
+    border: white dotted 2px;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+}
+
+#formul {
+    margin-top: 70px;
+    border: white dotted 2px;
+    color: white;
+    padding: 10px 50px;
+    font-size: 160%;
+}
