@@ -182,7 +182,7 @@ h2 {
 
 #fond {
     width: 98.9vw;
-    height: 70vh;
+    height: 50vh;
     background-image: url("../image/bg2.jpg");
     background-attachment: fixed;
     background-size: cover;
@@ -192,12 +192,6 @@ h2 {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-}
-
-.glide__slide img {
-    width: 400px;
-    height: 400px;
-    padding: 3em;
 }
 
 .glide__slides img {
@@ -228,4 +222,68 @@ footer div {
     color: white;
     padding: 10px 50px;
     font-size: 160%;
+}
+
+#menu2 {
+    display: none;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 750px) {
+    #menu {
+        opacity: 0;
+    }
+    #menu2 {
+        display: inherit;
+        position: fixed;
+        margin-top: 10px;
+        z-index: 10;
+        right: 10px;
+        font-size: 120%;
+    }
+    header {
+        background-attachment: fixed;
+        background-image: url("../image/fdb.jpg");
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+    }
+    #titre {
+        display: flex;
+        justify-content: center;
+        margin-top: 40%;
+    }
+    header h1 {
+        text-align: center;
+        font-family: 'Dancing Script', cursive;
+        background-color: rgba(0, 133, 0, 0.3);
+        border: white dotted 5px;
+        color: white;
+        font-size: 250%;
+        padding: 15px 150px;
+    }
+    .row {
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    #slogan {
+        font-family: 'Dancing Script', cursive;
+        color: white;
+        font-size: 200%;
+        background-color: rgba(0, 133, 0, 0.4);
+        padding: 15px 70px;
+        text-align: center;
+        border: white dotted 5px;
+        margin: 0px 25px;
+    }
+    .glide__slide {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
 }

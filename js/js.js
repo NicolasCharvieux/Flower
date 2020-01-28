@@ -1,4 +1,20 @@
-new Glide('.glide').mount()
+new Glide('.glide', {
+    type: 'carousel',
+    startAt: 0,
+    perView: 3,
+    gap: 100,
+    breakpoints: {
+        750: {
+            perView: 1
+        },
+    }
+}).mount()
+
+new Glide('.glide', {
+    750: {
+        perView: 1
+    }
+})
 
 $(function() {
     $.scrollIt({
@@ -7,3 +23,5 @@ $(function() {
         topOffset: 0 // offste (in px) for fixed top navigation
     });
 });
+
+var rellax = new Rellax('.titre');
