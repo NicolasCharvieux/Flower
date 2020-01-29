@@ -24,4 +24,10 @@ $(function() {
     });
 });
 
-var rellax = new Rellax('.titre');
+var rellax = new Rellax('.rellax', {
+    center: false,
+    wrapper: null,
+    round: true,
+    vertical: true,
+    horizontal: false
+});
